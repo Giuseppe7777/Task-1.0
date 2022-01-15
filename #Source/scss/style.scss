@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+.line {
+    width: 100%;
+    height: 2px;
+    background: #000;
+}
+.box-square {
+    display: flex;
+    width: 600px;
+    height: 515px;
+    
+    &__item {
+        width: 150px;
+        height: 170px;
+    }
+}
+.item-1 {
+    background: #870d4f;
+    align-self: flex-end;
+    
+}
+.item-2 {
+    background: #4a148b;
+    align-self: center;
+}
+.item-3 {
+    background: #e65000;
+    height: auto;
+    align-self: stretch;
+}
+.item-4 {
+    background: #be350d;
+}
